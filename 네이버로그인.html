@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 로그인</title>
+    <style>
+        *{margin: 0; padding: 0;}
+
+        form legend{
+            position: absolute;
+            left: -9999999999999px;
+        }
+        .wrap{
+            width: 700px;
+            height: 600px;
+            margin: 500px auto;
+            text-align: center;
+        }
+        .wrap h2{
+            font-size: 100px;
+            color: seagreen;
+            letter-spacing: 2px;
+        }
+        .wrap form div label{
+            position: absolute;
+            left: -999999999px;
+        }
+
+        .wrap form div input{
+            padding-left: 30px;
+            width: 600px;
+            height: 50px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        .wrap form .btn input{
+            background-color: springgreen;
+            color: #fff;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            padding-left: 0px;
+            border: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <form action="" methood="POST" autocomplete="off">
+            <h2>NAVER</h2>
+            <feildset>
+                <legend>로그인 페이지</legend>
+            <div>
+                <label for="name">아이디</label>
+                <input type="text" placeholder="아이디">
+            </div>
+            <div>
+                <label>비밀번호</label>
+                <input type="password" placeholder="비밀번호">
+            </div>
+            <div class="btn">
+                <input type="submit" value="로그인">
+            </div>
+            </feildset>  
+     </form>
+</div>
+</body>
+</html>
